@@ -588,7 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rockGenerator: {fileID: 345837336}
   explosionGenerator: {fileID: 1932810456}
-  _camera: {fileID: 0}
+  _camera: {fileID: 963194227}
   floor: {fileID: 829388928}
   rockData: {fileID: 11400000, guid: c026d2191d1cd9c4997a859ad7b6df5d, type: 2}
   rockInitialPosition: {fileID: 11400000, guid: 3f2e743ba3b99484e865ca747b4651e7,
