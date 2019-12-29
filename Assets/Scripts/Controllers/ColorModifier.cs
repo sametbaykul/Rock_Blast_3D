@@ -43,7 +43,7 @@ namespace BallBlast
             B = gameObject.GetComponent<MeshRenderer>().material.color.b;
 
             findColorDirection();
-            Invoke("findColorDirection", randomPeriod);
+            //Invoke("findColorDirection", randomPeriod);
         }
 
         // --------------------------------------------------
@@ -52,10 +52,10 @@ namespace BallBlast
 
         public void MODIFY_COLOR()
         {
-            UpdateColors();
+            /*UpdateColors();
             CheckColorLimits();
 
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color(R, G, B);
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color(R, G, B);*/
         }
 
         // --------------------------------------------------
@@ -64,12 +64,12 @@ namespace BallBlast
 
         private void findColorDirection()
         {
-            directionR = randomPositive();
-            directionG = randomPositive();
-            directionB = randomPositive();
+            directionR = RandomPositive();
+            directionG = RandomPositive();
+            directionB = RandomPositive();
         }
 
-        private int randomPositive()
+        private int RandomPositive()
         {
             if (Random.Range(-1, 1) >= 0)
             {

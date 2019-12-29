@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   generatedObject: {fileID: 1804206099813350, guid: 5d1521d8225d97447a135db422fd10cb,
     type: 3}
-  maximumObjectNumber: 10
+  maximumObjectNumber: 5
   spawnDelay: 0.1
   lifeDuration: 3
   infiniteLife: 0
   initialPositionOffset: {x: 0, y: 0, z: 0}
-  activeObjectNumber: 3
+  activeObjectNumber: 2
   spawnReady: 1

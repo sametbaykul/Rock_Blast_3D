@@ -150,6 +150,7 @@ namespace BallBlast
             if (generatedRock != null)
             {
                 GameObject rock = generatedRock.gameObject;
+                rock.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
 
                 rock.transform.localScale = new Vector3(rockData.size, rockData.size, rockData.size);
                 rock.GetComponent<Rigidbody>().ResetInertiaTensor();
@@ -232,7 +233,7 @@ namespace BallBlast
 
                             if (_generatedExplosion != null)
                             {
-                                _particleMain.maxParticles = 50;
+                                _particleMain.maxParticles = 15;
                             }
 
                             rock.SetActive(false);

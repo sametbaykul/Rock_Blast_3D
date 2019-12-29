@@ -28,7 +28,7 @@ namespace BallBlast
 
         public void UPDATE_ROTATION()
         {
-            transform.Rotate(axleVector, playerMotion.speed.x * speedModifier * Time.deltaTime * 100);
+            transform.Rotate(axleVector, playerMotion.speed.x * speedModifier * Time.fixedDeltaTime * 100);
         }
     }
 }

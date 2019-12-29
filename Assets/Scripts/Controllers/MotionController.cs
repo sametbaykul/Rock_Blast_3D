@@ -32,7 +32,7 @@ namespace BallBlast
         // FUNDAMENTAL
         // --------------------------------------------------
 
-        void Update()
+        void FixedUpdate()
         {
             if (isActive)
             {
@@ -48,7 +48,7 @@ namespace BallBlast
             }
             void update_position()
             {
-                posX = transform.position.x + speedX * Time.deltaTime;
+                posX = transform.position.x + speedX * Time.fixedDeltaTime;
 
                 if (posX < playerData.positionMIN)
                 {

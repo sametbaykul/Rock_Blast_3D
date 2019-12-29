@@ -19,5 +19,5 @@ MonoBehaviour:
   lifeDuration: 0.9
   infiniteLife: 0
   initialPositionOffset: {x: 0, y: 0.65, z: 0}
-  activeObjectNumber: 3
+  activeObjectNumber: 2
   spawnReady: 1
