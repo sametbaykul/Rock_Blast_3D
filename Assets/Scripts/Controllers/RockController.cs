@@ -18,7 +18,7 @@ namespace BallBlast
         [Header("Properties")]
         public Generator rockGenerator;
         public Generator explosionGenerator;
-        public Camera camera;
+        public Camera _camera;
         public GameObject floor;
 
         [Header("Data")]
@@ -52,7 +52,7 @@ namespace BallBlast
 
             for (int i = 0; i < _generatedRocks.Length; i++)
             {
-                _generatedRocks[i].gameObject.GetComponent<HealthController>().camera = camera;
+                _generatedRocks[i].gameObject.GetComponent<HealthController>()._camera = _camera;
             }
 
             GeneratedObject[] _generatedExplosions = explosionGenerator.GENERATED_OBJECTS;

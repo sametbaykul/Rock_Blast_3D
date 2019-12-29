@@ -18,7 +18,7 @@ namespace BallBlast
         [Header("Property")]
         public Text healthLabel;
         public ColorModifier colorModifier;
-        public Camera camera;
+        public Camera _camera;
 
         [Header("Config")]
         public string enemyTag;
@@ -84,9 +84,9 @@ namespace BallBlast
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (camera != null && collision.collider.name == "Floor" && transform.localScale.x >= 1)
+            if (_camera != null && collision.collider.name == "Floor" && transform.localScale.x >= 1)
             {
-                camera.GetComponent<StressReceiver>().InduceStress(tremorPower);
+                _camera.GetComponent<StressReceiver>().InduceStress(tremorPower);
             }
         }
 

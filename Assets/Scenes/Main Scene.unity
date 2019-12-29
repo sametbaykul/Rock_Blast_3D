@@ -588,7 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rockGenerator: {fileID: 345837336}
   explosionGenerator: {fileID: 1932810456}
-  camera: {fileID: 963194227}
+  _camera: {fileID: 0}
   floor: {fileID: 829388928}
   rockData: {fileID: 11400000, guid: c026d2191d1cd9c4997a859ad7b6df5d, type: 2}
   rockInitialPosition: {fileID: 11400000, guid: 3f2e743ba3b99484e865ca747b4651e7,
@@ -746,7 +746,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BALL BLAST
+  m_text: 'ROCK BLAST
+
+    3D'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2a6f42bdc92ef904a833722bcfc7488b, type: 2}
   m_sharedMaterial: {fileID: 7098743718157639460, guid: 2a6f42bdc92ef904a833722bcfc7488b,
@@ -775,7 +777,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 173.4
+  m_fontSize: 131.35
   m_fontSizeBase: 240
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -816,12 +818,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 572115911}
-    characterCount: 10
+    characterCount: 13
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 2
+    wordCount: 3
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2340,7 +2342,7 @@ PrefabInstance:
     - target: {fileID: 1845234916472406695, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6742294725952562108, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
@@ -3531,7 +3533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthLabel: {fileID: 0}
   colorModifier: {fileID: 0}
-  camera: {fileID: 0}
+  _camera: {fileID: 0}
   enemyTag: Rock
   setInactiveAfterCollision: 0
   tremorPower: 0
