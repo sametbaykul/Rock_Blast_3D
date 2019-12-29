@@ -16,7 +16,7 @@ MonoBehaviour:
   positionWideX: 1.8
   positionWideY: 0
   positionWideZ: 0
-  initialSpeedX: 3
+  initialSpeedX: 2.5
   initialSpeedY: 0
   initialSpeedZ: 0
   minAngularRotationX: 5

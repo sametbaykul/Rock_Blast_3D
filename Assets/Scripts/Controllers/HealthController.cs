@@ -44,9 +44,9 @@ namespace BallBlast
 
         private void OnTriggerEnter(Collider collider)
         {
-            if (collider.tag == enemyTag && this.enabled)
+            if (collider.CompareTag(enemyTag) && this.enabled)
             {
-                if (collider.tag == "Bullet")
+                if (collider.CompareTag("Bullet"))
                 {
                     collider.gameObject.SetActive(false);
                 }

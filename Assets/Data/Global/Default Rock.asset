@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxRockNumber: 6
   splitNumber: 2
-  spawnDelay: 4
-  splitSpeed: 3
+  spawnDelay: 3
+  splitSpeed: 2.5
   initialHP: 6
   splitHP: 2
   size: 1.2

@@ -1247,12 +1247,12 @@ PrefabInstance:
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
@@ -1267,7 +1267,7 @@ PrefabInstance:
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_fontSize
-      value: 276.35
+      value: 238.65
       objectReference: {fileID: 0}
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
@@ -1292,7 +1292,12 @@ PrefabInstance:
     - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_text
-      value: START
+      value: LEVEL 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520877636546083434, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8520877636976509748, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
@@ -2470,6 +2475,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Ball Blast 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520877636546083433, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520877636546083433, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520877636430724171, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: m_Text
+      value: Version 0.8.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011251088106942960, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: m_Text
+      value: Version 0.8.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b7fcd07a75578a48b664d27873b91b4, type: 3}

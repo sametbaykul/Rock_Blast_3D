@@ -266,7 +266,7 @@ namespace BallBlast
                         split_rock.transform.position = _rock.transform.position;
                         split_rock.transform.localScale = new Vector3(rockData.splitSize, rockData.splitSize, rockData.splitSize);
 
-                        float speedX = rockData.splitSpeed * (1 +  j / rockData.splitNumber) * isEven(j);
+                        float speedX = rockData.splitSpeed * (1 +  j / rockData.splitNumber) * IsEven(j);
                         float speedY = rockData.splitSpeed;
 
                         split_rock.GetComponent<Rigidbody>().velocity = new Vector3(speedX, speedY, 0);
@@ -298,7 +298,7 @@ namespace BallBlast
         // FUNCTIONS
         // --------------------------------------------------
 
-        private int isEven(int number)
+        private int IsEven(int number)
         {
             if (number % 2 == 0)
             {
