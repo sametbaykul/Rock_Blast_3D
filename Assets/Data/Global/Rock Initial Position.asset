@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb293eb5cc381c45ba7bd32c875fa72, type: 3}
   m_Name: Rock Initial Position
   m_EditorClassIdentifier: 
-  initialPosition: {x: 0, y: 6, z: 1}
+  initialPosition: {x: 0, y: 5, z: 1}
   positionWideX: 1.8
   positionWideY: 0
   positionWideZ: 0
