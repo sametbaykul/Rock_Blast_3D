@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55fc3a33d94fc1b4f8dbc99618dd130a, type: 3}
+  m_Name: Bullet Pool
+  m_EditorClassIdentifier: 
+  generatedObject: {fileID: 4612224965311253874, guid: 3b334514eff1a9c4ca7be7afbe96b874,
+    type: 3}
+  maximumObjectNumber: 140
+  spawnDelay: 0.05
+  lifeDuration: 1.2
+  infiniteLife: 0
+  initialPositionOffset: {x: 0, y: 0.65, z: 0}
+  activeObjectNumber: 2
+  spawnReady: 1
