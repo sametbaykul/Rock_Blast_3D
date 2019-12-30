@@ -23,8 +23,8 @@ namespace BallBlast
     public class GameDataJSON
     {
         public float gravity;
-        public int bullet_count_increase;
-        public int bullet_damage_increase;
+        public float bullet_count_increase;
+        public float bullet_damage_increase;
         public LevelDataJSON[] levels;
     }
 

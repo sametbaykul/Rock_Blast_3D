@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 118bb55d25319484a9c7ba3248e72f88, type: 3}
   m_Name: Default Rock
   m_EditorClassIdentifier: 
-  maxRockNumber: 6
+  maxRockNumber: 5
   splitNumber: 2
   spawnDelay: 3
   splitSpeed: 2.5

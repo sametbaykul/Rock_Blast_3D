@@ -2723,6 +2723,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8243553929877035989}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4199284278578626765, guid: 7c96f09e033ddf94fa66853580dbd728,
         type: 3}
       propertyPath: m_Name
@@ -2817,11 +2821,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gun
-      objectReference: {fileID: 0}
-    - target: {fileID: 2258374371387484847, guid: 7c96f09e033ddf94fa66853580dbd728,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6358882974850787647, guid: 7c96f09e033ddf94fa66853580dbd728,
         type: 3}
@@ -3359,7 +3358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b898ea4c598ebee4dae327b2bd07eae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.05
+  amplitude: 0.03
   restoringDelay: 0.05
   recoilDelay: 0.05
   directionVector: {x: 0, y: -1, z: 0}

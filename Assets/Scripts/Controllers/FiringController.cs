@@ -36,12 +36,12 @@ namespace BallBlast
             {
                 if (levelData.level <= dataJSON.gameDataJSON.levels.Length)
                 {
-                    multipleBullet = 1 + dataJSON.gameDataJSON.bullet_count_increase * (levelData.level - 1);
+                    multipleBullet = (int)(1 + dataJSON.gameDataJSON.bullet_count_increase * (levelData.level - 1));
                     damagePoint = 1 + dataJSON.gameDataJSON.bullet_damage_increase * (levelData.level - 1);
                 }
                 else
                 {
-                    multipleBullet = Mathf.Min(5 + (int)((levelData.level - 5) / 10), firingData.maxMultipleBullet);
+                    multipleBullet = Mathf.Min(4 + (int)((levelData.level - 5) / 10), firingData.maxMultipleBullet);
                     damagePoint = 1 + (int)(levelData.level / 10);
                 }
             }

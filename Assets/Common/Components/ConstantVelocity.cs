@@ -23,11 +23,16 @@ namespace Common.Components
 
         void FixedUpdate()
         {
-            transform.position = new Vector3(transform.position.x + velocityData.speedX * Time.fixedDeltaTime, transform.position.y + velocityData.speedY * Time.fixedDeltaTime, transform.position.z + velocityData.speedZ * Time.fixedDeltaTime);
-            
-            if (gameObject.GetComponent<Rigidbody>() != null)
+            if (gameObject.activeInHierarchy)
             {
-                gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(velocityData.angularX, velocityData.angularY, velocityData.angularZ);
+                //transform.position = new Vector3(transform.position.x + velocityData.speedX * Time.fixedDeltaTime, transform.position.y + velocityData.speedY * Time.fixedDeltaTime, transform.position.z + velocityData.speedZ * Time.fixedDeltaTime);
+
+                transform.transform.Translate(new Vector3(velocityData.speedX, velocityData.speedY, velocityData.speedZ) * Time.fixedDeltaTime);
+
+                if (gameObject.GetComponent<Rigidbody>() != null)
+                {
+                    gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(velocityData.angularX, velocityData.angularY, velocityData.angularZ);
+                }
             }
         }
     }

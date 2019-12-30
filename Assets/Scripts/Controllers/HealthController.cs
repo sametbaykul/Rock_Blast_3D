@@ -44,7 +44,7 @@ namespace BallBlast
 
         private void OnTriggerEnter(Collider collider)
         {
-            if (collider.CompareTag(enemyTag) && this.enabled)
+            if (collider.CompareTag(enemyTag) && this.enabled && gameObject.activeInHierarchy)
             {
                 if (collider.CompareTag("Bullet"))
                 {
@@ -84,7 +84,7 @@ namespace BallBlast
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (_camera != null && collision.collider.name == "Floor" && transform.localScale.x >= 1)
+            if (_camera != null && collision.collider.name == "Floor" && transform.localScale.x >= 1 && this.enabled && gameObject.activeInHierarchy)
             {
                 _camera.GetComponent<StressReceiver>().InduceStress(tremorPower);
             }
