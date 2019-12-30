@@ -2342,6 +2342,17 @@ PrefabInstance:
       propertyPath: levelTMP
       value: 
       objectReference: {fileID: 5860939}
+    - target: {fileID: 6695304524854560080, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: firingData
+      value: 
+      objectReference: {fileID: 11400000, guid: 993eacf3d9d175845b05cc55a72b853a,
+        type: 2}
+    - target: {fileID: 6695304524854560080, guid: 5b7fcd07a75578a48b664d27873b91b4,
+        type: 3}
+      propertyPath: firingCont
+      value: 
+      objectReference: {fileID: 4199284278036339522}
     - target: {fileID: 1845234916472406695, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_IsActive
@@ -2512,12 +2523,12 @@ PrefabInstance:
     - target: {fileID: 8520877636430724171, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_Text
-      value: Version 0.8.3
+      value: Version 0.8.4
       objectReference: {fileID: 0}
     - target: {fileID: 4011251088106942960, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}
       propertyPath: m_Text
-      value: Version 0.8.3
+      value: Version 0.8.4
       objectReference: {fileID: 0}
     - target: {fileID: 5400307564237699390, guid: 5b7fcd07a75578a48b664d27873b91b4,
         type: 3}

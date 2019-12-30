@@ -30,6 +30,9 @@ namespace BallBlast
         public bool printMessages = false;
         public bool deleteStorageAtStart;
 
+        [Header("Links")]
+        public FiringController firingCont;
+
         [Header("Tutorial Panel")]
         public GameObject tutorialPanel;
 
@@ -56,6 +59,7 @@ namespace BallBlast
 
         [Header("Data")]
         public LevelData levelData;
+
 
         // --------------------------------------------------
         // PRIVATE VARIABLES
@@ -177,7 +181,7 @@ namespace BallBlast
 
         public void INCREASE_POINT()
         {
-            SCORE++;
+            SCORE += (int)firingCont.damagePoint;
         }
 
         // Access Methods:

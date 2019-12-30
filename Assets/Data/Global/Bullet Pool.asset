@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55fc3a33d94fc1b4f8dbc99618dd130a, type: 3}
   m_Name: Bullet Pool
   m_EditorClassIdentifier: 
-  generatedObject: {fileID: 4612224965311253874, guid: 3b334514eff1a9c4ca7be7afbe96b874,
+  generatedObject: {fileID: 4612224965311253874, guid: 1635bd4f2930b1747acf016aa8ad35ba,
     type: 3}
-  maximumObjectNumber: 110
+  maximumObjectNumber: 120
   spawnDelay: 0.05
   lifeDuration: 0.9
   infiniteLife: 0
-  initialPositionOffset: {x: 0, y: 0.65, z: 0}
-  activeObjectNumber: 2
+  initialPositionOffset: {x: 0, y: 0.8, z: 0}
+  activeObjectNumber: 4
   spawnReady: 1

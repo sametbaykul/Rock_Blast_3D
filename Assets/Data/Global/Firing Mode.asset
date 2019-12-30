@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Firing Mode
   m_EditorClassIdentifier: 
   maxMultipleBullet: 7
-  multipleBulletSpread: 0.16
+  multipleBulletSpread: 0.12
   damagePoint: 1
