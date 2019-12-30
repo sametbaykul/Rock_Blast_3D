@@ -21,9 +21,9 @@ namespace Common.Components
         // FUNDAMENTAL
         // --------------------------------------------------
 
-        void Update()
+        void FixedUpdate()
         {
-            transform.position = new Vector3(transform.position.x + velocityData.speedX * Time.deltaTime, transform.position.y + velocityData.speedY * Time.deltaTime, transform.position.z + velocityData.speedZ * Time.deltaTime);
+            transform.position = new Vector3(transform.position.x + velocityData.speedX * Time.fixedDeltaTime, transform.position.y + velocityData.speedY * Time.fixedDeltaTime, transform.position.z + velocityData.speedZ * Time.fixedDeltaTime);
             
             if (gameObject.GetComponent<Rigidbody>() != null)
             {
